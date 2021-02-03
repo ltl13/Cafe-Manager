@@ -9,11 +9,15 @@
     <Grid>
         <TextBox x:Name="tbxUsername"
                  Height="25" Width="200"
-                 Margin="298,161,174.8,234"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Margin="299,95,0,0"
                  FontSize="13"/>
         <TextBox x:Name="tbxPassword"
                  Height="25" Width="200"
-                 Margin="298,110,174.8,285"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Margin="299,146,0,0"
                  FontSize="13" BorderThickness="1"/>
     </Grid>
 </Window>
