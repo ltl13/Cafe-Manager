@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CafeManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="678.899">
     <Grid>
-        
+        <TextBox x:Name="tbxUsername"
+                 Height="25" Width="200"
+                 Margin="298,161,174.8,234"
+                 FontSize="13"/>
+        <TextBox x:Name="tbxPassword"
+                 Height="25" Width="200"
+                 Margin="298,110,174.8,285"
+                 FontSize="13" BorderThickness="1"/>
     </Grid>
 </Window>
