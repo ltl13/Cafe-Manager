@@ -5,33 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CafeManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="678.899">
+        Title="Login" Height="212.4" Width="330.899">
     <Grid>
         <TextBox x:Name="tbxUsername"
                  Height="25" Width="200"
                  HorizontalAlignment="Left"
                  VerticalAlignment="Top"
-                 Margin="299,95,0,0"
+                 Margin="104,26,0,0"
                  FontSize="13"/>
         <PasswordBox x:Name="pwbPassword"
                      Height="25" Width="200"
                      HorizontalAlignment="Left"
                      VerticalAlignment="Top"
-                     Margin="299,146,0,0"
+                     Margin="103,76,0,0"
                      FontSize="13"/>
         <TextBlock x:Name="tblUsername"
                    TextWrapping="Wrap"
                    Text="Username"
                    VerticalAlignment="Top"
                    HorizontalAlignment="Left"
-                   Margin="215,95,0,0"
+                   Margin="20,26,0,0"
                    FontSize="15"/>
         <TextBlock x:Name="tblPassword"
                    TextWrapping="Wrap"
                    Text="Password"
                    VerticalAlignment="Top"
                    HorizontalAlignment="Left"
-                   Margin="215,146,0,0"
+                   Margin="20,76,0,0"
                    FontSize="15"/>
         <Button x:Name="btnLogin"
                 Content="Login"
@@ -39,6 +39,6 @@
                 VerticalAlignment="Top"
                 FontSize="20"
                 Height="30"
-                Width="80" Margin="299,194,0,0"/>
+                Width="80" Margin="103,124,0,0"/>
     </Grid>
 </Window>
