@@ -5,19 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CafeManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="678.899">
+        Title="Cafe Manager" Height="222" Width="360.899">
     <Grid>
         <TextBox x:Name="tbxUsername"
                  Height="25" Width="200"
                  HorizontalAlignment="Left"
                  VerticalAlignment="Top"
-                 Margin="299,95,0,0"
+                 Margin="112,29,0,0"
                  FontSize="13"/>
-        <TextBox x:Name="tbxPassword"
-                 Height="25" Width="200"
-                 HorizontalAlignment="Left"
-                 VerticalAlignment="Top"
-                 Margin="299,146,0,0"
-                 FontSize="13" BorderThickness="1"/>
+        <PasswordBox x:Name="pwbPassword"
+                     Height="25" Width="200"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Margin="112,80,0,0"
+                     FontSize="13" MaxLength="100"/>
+        <TextBlock x:Name="tblUsername"
+                   Height="25" 
+                   TextWrapping="Wrap"
+                   FontSize="15"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Margin="24,29,0,0"
+                   Text="User name"/>
+        <TextBlock x:Name="tblPassword"
+                   Height="25" 
+                   TextWrapping="Wrap"
+                   FontSize="15"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Margin="33,80,0,0"
+                   Text="Password"/>
+        <Button x:Name="btnLogin"
+                Content="Login"
+                FontSize="20"
+                Height="30"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="112,134,0,0"/>
+        <Button x:Name="btnSignup"
+            Content="Signup"
+            FontSize="20"
+            Height="30"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="209,134,0,0"/>
     </Grid>
 </Window>
