@@ -24,5 +24,13 @@ namespace CafeManager
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            fMain main = new fMain();
+            this.Hide();
+            main.ShowDialog();
+            this.Show();
+        }
     }
 }

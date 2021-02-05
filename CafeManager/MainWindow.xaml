@@ -39,6 +39,7 @@
                 VerticalAlignment="Top"
                 FontSize="20"
                 Height="30"
-                Width="80" Margin="103,124,0,0"/>
+                Width="80" Margin="103,124,0,0"
+                Click="btnLogin_Click"/>
     </Grid>
 </Window>
